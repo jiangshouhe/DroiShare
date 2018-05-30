@@ -1,0 +1,6 @@
+framework module DroiShare {
+  umbrella header "DroiShare.h"
+
+  export *
+  module * { export * }
+}

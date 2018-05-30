@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3022007DFDEE8FFCB5A01579 /* libPods-DroiShareSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAE2CDBD4BE71F2A7B0FD3B /* libPods-DroiShareSDKDemo.a */; };
+		5205DEF9D1EEFDD3AC09C3DF /* DroiBaaS.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C011FFCEA78EE6B246091C /* DroiBaaS.h */; };
+		73812F26014715D6C2117C52 /* DroiBaaS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435BBF43F7E1981A37366FCD /* DroiBaaS.plist */; };
+		D7343CDD207F8729001B3C18 /* DroiShareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7343CDC207F8729001B3C18 /* DroiShareBundle.bundle */; };
+		D7343CDF207F875A001B3C18 /* DroiShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7343CDE207F875A001B3C18 /* DroiShare.framework */; };
+		D7696B791FA88B9A004685AD /* DroiQQShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7696B751FA88B9A004685AD /* DroiQQShare.framework */; };
+		D7696B7A1FA88B9A004685AD /* DroiShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7696B761FA88B9A004685AD /* DroiShare.framework */; };
+		D7696B7B1FA88B9A004685AD /* DroiSinaWeiboShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7696B771FA88B9A004685AD /* DroiSinaWeiboShare.framework */; };
+		D7696B7C1FA88B9A004685AD /* DroiWechatShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7696B781FA88B9A004685AD /* DroiWechatShare.framework */; };
+		D79A4A5B1FB453BB00990812 /* res1thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A4A581FB453BA00990812 /* res1thumb.png */; };
+		D79A4A5C1FB453BB00990812 /* apm.mov in Resources */ = {isa = PBXBuildFile; fileRef = D79A4A591FB453BA00990812 /* apm.mov */; };
+		D79A4A5D1FB453BB00990812 /* res2.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A4A5A1FB453BA00990812 /* res2.png */; };
+		D7DF1A931F7DF261002FF831 /* QQFriendVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF1A901F7DF261002FF831 /* QQFriendVC.h */; };
+		D7DF1A941F7DF261002FF831 /* QQFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1A911F7DF261002FF831 /* QQFriendVC.m */; };
+		D7DF1A951F7DF261002FF831 /* QQFriendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1A921F7DF261002FF831 /* QQFriendVC.xib */; };
+		D7DF1AA21F7DF276002FF831 /* QQZoneVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF1A961F7DF276002FF831 /* QQZoneVC.h */; };
+		D7DF1AA31F7DF276002FF831 /* QQZoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1A971F7DF276002FF831 /* QQZoneVC.m */; };
+		D7DF1AA41F7DF276002FF831 /* QQZoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1A981F7DF276002FF831 /* QQZoneVC.xib */; };
+		D7DF1AA51F7DF276002FF831 /* WechatSessionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF1A991F7DF276002FF831 /* WechatSessionVC.h */; };
+		D7DF1AA61F7DF276002FF831 /* WechatSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1A9A1F7DF276002FF831 /* WechatSessionVC.m */; };
+		D7DF1AA71F7DF276002FF831 /* WechatSessionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1A9B1F7DF276002FF831 /* WechatSessionVC.xib */; };
+		D7DF1AA81F7DF276002FF831 /* WechatTimelineVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF1A9C1F7DF276002FF831 /* WechatTimelineVC.h */; };
+		D7DF1AA91F7DF276002FF831 /* WechatTimelineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1A9D1F7DF276002FF831 /* WechatTimelineVC.m */; };
+		D7DF1AAA1F7DF276002FF831 /* WechatTimelineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1A9E1F7DF276002FF831 /* WechatTimelineVC.xib */; };
+		D7DF1AAB1F7DF276002FF831 /* WeiboVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DF1A9F1F7DF276002FF831 /* WeiboVC.h */; };
+		D7DF1AAC1F7DF276002FF831 /* WeiboVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1AA01F7DF276002FF831 /* WeiboVC.m */; };
+		D7DF1AAD1F7DF276002FF831 /* WeiboVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1AA11F7DF276002FF831 /* WeiboVC.xib */; };
+		D7E91E211F78D27E006C9F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E91E201F78D27E006C9F84 /* main.m */; };
+		D7E91E241F78D27E006C9F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E91E231F78D27E006C9F84 /* AppDelegate.m */; };
+		D7E91E271F78D27E006C9F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E91E261F78D27E006C9F84 /* ViewController.m */; };
+		D7E91E2A1F78D27E006C9F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E91E281F78D27E006C9F84 /* Main.storyboard */; };
+		D7E91E2C1F78D27E006C9F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E91E2B1F78D27E006C9F84 /* Assets.xcassets */; };
+		D7E91E2F1F78D27E006C9F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E91E2D1F78D27E006C9F84 /* LaunchScreen.storyboard */; };
+		D7E91E521F78E885006C9F84 /* libDroiOAuthQQProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91E4F1F78E885006C9F84 /* libDroiOAuthQQProvider.a */; };
+		D7E91E531F78E885006C9F84 /* libDroiOAuthSinaProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91E501F78E885006C9F84 /* libDroiOAuthSinaProvider.a */; };
+		D7E91E541F78E885006C9F84 /* libDroiOAuthWeixinProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91E511F78E885006C9F84 /* libDroiOAuthWeixinProvider.a */; };
+		D7E91E581F78E894006C9F84 /* DroiOAuthQQProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E91E551F78E894006C9F84 /* DroiOAuthQQProvider.h */; };
+		D7E91E591F78E894006C9F84 /* DroiOAuthSinaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E91E561F78E894006C9F84 /* DroiOAuthSinaProvider.h */; };
+		D7E91E5A1F78E894006C9F84 /* DroiOAuthWeixinProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E91E571F78E894006C9F84 /* DroiOAuthWeixinProvider.h */; };
+		D7E91E7E1F78E974006C9F84 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91E7D1F78E974006C9F84 /* TencentOpenAPI.framework */; };
+		E174E2F6AA6161AAA4575650 /* DroiBaaS.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3762B49651E1F970750311 /* DroiBaaS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BAE2CDBD4BE71F2A7B0FD3B /* libPods-DroiShareSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DroiShareSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6783ACFD1AE00E4A9128DE /* Pods-DroiShareSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroiShareSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroiShareSDKDemo/Pods-DroiShareSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		435BBF43F7E1981A37366FCD /* DroiBaaS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = DroiBaaS.plist; sourceTree = "<group>"; };
+		BC3762B49651E1F970750311 /* DroiBaaS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DroiBaaS.m; sourceTree = "<group>"; };
+		D4C011FFCEA78EE6B246091C /* DroiBaaS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DroiBaaS.h; sourceTree = "<group>"; };
+		D7343CDC207F8729001B3C18 /* DroiShareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DroiShareBundle.bundle; sourceTree = "<group>"; };
+		D7343CDE207F875A001B3C18 /* DroiShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiShare.framework; sourceTree = "<group>"; };
+		D7696B6F1FA87C77004685AD /* DroiSinaWeiboShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiSinaWeiboShare.framework; sourceTree = "<group>"; };
+		D7696B701FA87C77004685AD /* DroiWechatShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiWechatShare.framework; sourceTree = "<group>"; };
+		D7696B751FA88B9A004685AD /* DroiQQShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DroiQQShare.framework; path = "../Desktop/DroiShare-10-31-release/DroiQQShare.framework"; sourceTree = "<group>"; };
+		D7696B761FA88B9A004685AD /* DroiShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DroiShare.framework; path = "../Desktop/DroiShare-10-31-release/DroiShare.framework"; sourceTree = "<group>"; };
+		D7696B771FA88B9A004685AD /* DroiSinaWeiboShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DroiSinaWeiboShare.framework; path = "../Desktop/DroiShare-10-31-release/DroiSinaWeiboShare.framework"; sourceTree = "<group>"; };
+		D7696B781FA88B9A004685AD /* DroiWechatShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DroiWechatShare.framework; path = "../Desktop/DroiShare-10-31-release/DroiWechatShare.framework"; sourceTree = "<group>"; };
+		D7696B811FA890F5004685AD /* DroiQQShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiQQShare.framework; sourceTree = "<group>"; };
+		D79A4A581FB453BA00990812 /* res1thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res1thumb.png; sourceTree = "<group>"; };
+		D79A4A591FB453BA00990812 /* apm.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = apm.mov; sourceTree = "<group>"; };
+		D79A4A5A1FB453BA00990812 /* res2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res2.png; sourceTree = "<group>"; };
+		D7DF1A901F7DF261002FF831 /* QQFriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFriendVC.h; sourceTree = "<group>"; };
+		D7DF1A911F7DF261002FF831 /* QQFriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFriendVC.m; sourceTree = "<group>"; };
+		D7DF1A921F7DF261002FF831 /* QQFriendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QQFriendVC.xib; sourceTree = "<group>"; };
+		D7DF1A961F7DF276002FF831 /* QQZoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQZoneVC.h; sourceTree = "<group>"; };
+		D7DF1A971F7DF276002FF831 /* QQZoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQZoneVC.m; sourceTree = "<group>"; };
+		D7DF1A981F7DF276002FF831 /* QQZoneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QQZoneVC.xib; sourceTree = "<group>"; };
+		D7DF1A991F7DF276002FF831 /* WechatSessionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatSessionVC.h; sourceTree = "<group>"; };
+		D7DF1A9A1F7DF276002FF831 /* WechatSessionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatSessionVC.m; sourceTree = "<group>"; };
+		D7DF1A9B1F7DF276002FF831 /* WechatSessionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WechatSessionVC.xib; sourceTree = "<group>"; };
+		D7DF1A9C1F7DF276002FF831 /* WechatTimelineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatTimelineVC.h; sourceTree = "<group>"; };
+		D7DF1A9D1F7DF276002FF831 /* WechatTimelineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatTimelineVC.m; sourceTree = "<group>"; };
+		D7DF1A9E1F7DF276002FF831 /* WechatTimelineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WechatTimelineVC.xib; sourceTree = "<group>"; };
+		D7DF1A9F1F7DF276002FF831 /* WeiboVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboVC.h; sourceTree = "<group>"; };
+		D7DF1AA01F7DF276002FF831 /* WeiboVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboVC.m; sourceTree = "<group>"; };
+		D7DF1AA11F7DF276002FF831 /* WeiboVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeiboVC.xib; sourceTree = "<group>"; };
+		D7E91E1C1F78D27E006C9F84 /* DroiShareSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroiShareSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E91E201F78D27E006C9F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E91E221F78D27E006C9F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E91E231F78D27E006C9F84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E91E251F78D27E006C9F84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7E91E261F78D27E006C9F84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7E91E291F78D27E006C9F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E91E2B1F78D27E006C9F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E91E2E1F78D27E006C9F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E91E301F78D27E006C9F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E91E4F1F78E885006C9F84 /* libDroiOAuthQQProvider.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDroiOAuthQQProvider.a; sourceTree = "<group>"; };
+		D7E91E501F78E885006C9F84 /* libDroiOAuthSinaProvider.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDroiOAuthSinaProvider.a; sourceTree = "<group>"; };
+		D7E91E511F78E885006C9F84 /* libDroiOAuthWeixinProvider.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDroiOAuthWeixinProvider.a; sourceTree = "<group>"; };
+		D7E91E551F78E894006C9F84 /* DroiOAuthQQProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroiOAuthQQProvider.h; sourceTree = "<group>"; };
+		D7E91E561F78E894006C9F84 /* DroiOAuthSinaProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroiOAuthSinaProvider.h; sourceTree = "<group>"; };
+		D7E91E571F78E894006C9F84 /* DroiOAuthWeixinProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroiOAuthWeixinProvider.h; sourceTree = "<group>"; };
+		D7E91E7D1F78E974006C9F84 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		EF3D6BE377E23C0FAFE4DBE1 /* Pods-DroiShareSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroiShareSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroiShareSDKDemo/Pods-DroiShareSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E91E191F78D27E006C9F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7696B791FA88B9A004685AD /* DroiQQShare.framework in Frameworks */,
+				D7696B7A1FA88B9A004685AD /* DroiShare.framework in Frameworks */,
+				D7696B7B1FA88B9A004685AD /* DroiSinaWeiboShare.framework in Frameworks */,
+				D7696B7C1FA88B9A004685AD /* DroiWechatShare.framework in Frameworks */,
+				D7E91E541F78E885006C9F84 /* libDroiOAuthWeixinProvider.a in Frameworks */,
+				D7E91E7E1F78E974006C9F84 /* TencentOpenAPI.framework in Frameworks */,
+				D7343CDF207F875A001B3C18 /* DroiShare.framework in Frameworks */,
+				D7E91E521F78E885006C9F84 /* libDroiOAuthQQProvider.a in Frameworks */,
+				3022007DFDEE8FFCB5A01579 /* libPods-DroiShareSDKDemo.a in Frameworks */,
+				D7E91E531F78E885006C9F84 /* libDroiOAuthSinaProvider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15823AD7ED4A49BA59F4AAF3 /* DroiBaaS */ = {
+			isa = PBXGroup;
+			children = (
+				D4C011FFCEA78EE6B246091C /* DroiBaaS.h */,
+				BC3762B49651E1F970750311 /* DroiBaaS.m */,
+				435BBF43F7E1981A37366FCD /* DroiBaaS.plist */,
+			);
+			name = DroiBaaS;
+			sourceTree = "<group>";
+		};
+		7F230CBA751B16E42A66BA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7696B751FA88B9A004685AD /* DroiQQShare.framework */,
+				D7696B761FA88B9A004685AD /* DroiShare.framework */,
+				D7696B771FA88B9A004685AD /* DroiSinaWeiboShare.framework */,
+				D7696B781FA88B9A004685AD /* DroiWechatShare.framework */,
+				0BAE2CDBD4BE71F2A7B0FD3B /* libPods-DroiShareSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E91E131F78D27E006C9F84 = {
+			isa = PBXGroup;
+			children = (
+				D7E91E1E1F78D27E006C9F84 /* DroiShareSDKDemo */,
+				D7E91E1D1F78D27E006C9F84 /* Products */,
+				DA54B161BB411ED2327E1988 /* Pods */,
+				7F230CBA751B16E42A66BA6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E91E1D1F78D27E006C9F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E91E1C1F78D27E006C9F84 /* DroiShareSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E91E1E1F78D27E006C9F84 /* DroiShareSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D7343CDE207F875A001B3C18 /* DroiShare.framework */,
+				D7343CDC207F8729001B3C18 /* DroiShareBundle.bundle */,
+				D7696B811FA890F5004685AD /* DroiQQShare.framework */,
+				D7696B6F1FA87C77004685AD /* DroiSinaWeiboShare.framework */,
+				D7696B701FA87C77004685AD /* DroiWechatShare.framework */,
+				D7E91E7D1F78E974006C9F84 /* TencentOpenAPI.framework */,
+				D7E91E4F1F78E885006C9F84 /* libDroiOAuthQQProvider.a */,
+				D7E91E501F78E885006C9F84 /* libDroiOAuthSinaProvider.a */,
+				D7E91E511F78E885006C9F84 /* libDroiOAuthWeixinProvider.a */,
+				D7E91E551F78E894006C9F84 /* DroiOAuthQQProvider.h */,
+				D7E91E561F78E894006C9F84 /* DroiOAuthSinaProvider.h */,
+				D7E91E571F78E894006C9F84 /* DroiOAuthWeixinProvider.h */,
+				D7DF1A961F7DF276002FF831 /* QQZoneVC.h */,
+				D7DF1A971F7DF276002FF831 /* QQZoneVC.m */,
+				D7DF1A981F7DF276002FF831 /* QQZoneVC.xib */,
+				D7DF1A991F7DF276002FF831 /* WechatSessionVC.h */,
+				D7DF1A9A1F7DF276002FF831 /* WechatSessionVC.m */,
+				D7DF1A9B1F7DF276002FF831 /* WechatSessionVC.xib */,
+				D7DF1A9C1F7DF276002FF831 /* WechatTimelineVC.h */,
+				D7DF1A9D1F7DF276002FF831 /* WechatTimelineVC.m */,
+				D7DF1A9E1F7DF276002FF831 /* WechatTimelineVC.xib */,
+				D7DF1A9F1F7DF276002FF831 /* WeiboVC.h */,
+				D7DF1AA01F7DF276002FF831 /* WeiboVC.m */,
+				D7DF1AA11F7DF276002FF831 /* WeiboVC.xib */,
+				D7DF1A901F7DF261002FF831 /* QQFriendVC.h */,
+				D7DF1A911F7DF261002FF831 /* QQFriendVC.m */,
+				D7DF1A921F7DF261002FF831 /* QQFriendVC.xib */,
+				D7E91E221F78D27E006C9F84 /* AppDelegate.h */,
+				D7E91E231F78D27E006C9F84 /* AppDelegate.m */,
+				D7E91E251F78D27E006C9F84 /* ViewController.h */,
+				D7E91E261F78D27E006C9F84 /* ViewController.m */,
+				D7E91E281F78D27E006C9F84 /* Main.storyboard */,
+				D7E91E2B1F78D27E006C9F84 /* Assets.xcassets */,
+				D7E91E2D1F78D27E006C9F84 /* LaunchScreen.storyboard */,
+				D7E91E301F78D27E006C9F84 /* Info.plist */,
+				D79A4A591FB453BA00990812 /* apm.mov */,
+				D79A4A581FB453BA00990812 /* res1thumb.png */,
+				D79A4A5A1FB453BA00990812 /* res2.png */,
+				D7E91E1F1F78D27E006C9F84 /* Supporting Files */,
+				15823AD7ED4A49BA59F4AAF3 /* DroiBaaS */,
+			);
+			path = DroiShareSDKDemo;
+			sourceTree = "<group>";
+		};
+		D7E91E1F1F78D27E006C9F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E91E201F78D27E006C9F84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA54B161BB411ED2327E1988 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D6783ACFD1AE00E4A9128DE /* Pods-DroiShareSDKDemo.debug.xcconfig */,
+				EF3D6BE377E23C0FAFE4DBE1 /* Pods-DroiShareSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBF627E296F8B44D869E34CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DF1AAB1F7DF276002FF831 /* WeiboVC.h in Headers */,
+				5205DEF9D1EEFDD3AC09C3DF /* DroiBaaS.h in Headers */,
+				D7DF1AA21F7DF276002FF831 /* QQZoneVC.h in Headers */,
+				D7E91E5A1F78E894006C9F84 /* DroiOAuthWeixinProvider.h in Headers */,
+				D7E91E581F78E894006C9F84 /* DroiOAuthQQProvider.h in Headers */,
+				D7DF1AA81F7DF276002FF831 /* WechatTimelineVC.h in Headers */,
+				D7DF1A931F7DF261002FF831 /* QQFriendVC.h in Headers */,
+				D7DF1AA51F7DF276002FF831 /* WechatSessionVC.h in Headers */,
+				D7E91E591F78E894006C9F84 /* DroiOAuthSinaProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7E91E1B1F78D27E006C9F84 /* DroiShareSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E91E331F78D27E006C9F84 /* Build configuration list for PBXNativeTarget "DroiShareSDKDemo" */;
+			buildPhases = (
+				F6BC4AA46BC461A13466B8EB /* [CP] Check Pods Manifest.lock */,
+				3FF87F817E025B0427288A17 /* DroiBaaS Preprocessor */,
+				D7E91E181F78D27E006C9F84 /* Sources */,
+				D7E91E191F78D27E006C9F84 /* Frameworks */,
+				D7E91E1A1F78D27E006C9F84 /* Resources */,
+				8BB26ABA10BF96939E4FEE2D /* [CP] Embed Pods Frameworks */,
+				CBB8004BA975752B72C48F06 /* [CP] Copy Pods Resources */,
+				CBF627E296F8B44D869E34CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroiShareSDKDemo;
+			productName = DroiShareSDKDemo;
+			productReference = D7E91E1C1F78D27E006C9F84 /* DroiShareSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E91E141F78D27E006C9F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Droi;
+				TargetAttributes = {
+					D7E91E1B1F78D27E006C9F84 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5K93T4P36N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7E91E171F78D27E006C9F84 /* Build configuration list for PBXProject "DroiShareSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E91E131F78D27E006C9F84;
+			productRefGroup = D7E91E1D1F78D27E006C9F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E91E1B1F78D27E006C9F84 /* DroiShareSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E91E1A1F78D27E006C9F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E91E2F1F78D27E006C9F84 /* LaunchScreen.storyboard in Resources */,
+				D7DF1AA41F7DF276002FF831 /* QQZoneVC.xib in Resources */,
+				D7DF1AAD1F7DF276002FF831 /* WeiboVC.xib in Resources */,
+				D7E91E2C1F78D27E006C9F84 /* Assets.xcassets in Resources */,
+				D7DF1AAA1F7DF276002FF831 /* WechatTimelineVC.xib in Resources */,
+				D7E91E2A1F78D27E006C9F84 /* Main.storyboard in Resources */,
+				D7DF1AA71F7DF276002FF831 /* WechatSessionVC.xib in Resources */,
+				D79A4A5B1FB453BB00990812 /* res1thumb.png in Resources */,
+				D79A4A5C1FB453BB00990812 /* apm.mov in Resources */,
+				D79A4A5D1FB453BB00990812 /* res2.png in Resources */,
+				D7DF1A951F7DF261002FF831 /* QQFriendVC.xib in Resources */,
+				D7343CDD207F8729001B3C18 /* DroiShareBundle.bundle in Resources */,
+				73812F26014715D6C2117C52 /* DroiBaaS.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FF87F817E025B0427288A17 /* DroiBaaS Preprocessor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "DroiBaaS Preprocessor";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/DroiCoreSDK/scripts/baas_cli\" parse \"${SRCROOT}\"";
+		};
+		8BB26ABA10BF96939E4FEE2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroiShareSDKDemo/Pods-DroiShareSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB8004BA975752B72C48F06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroiShareSDKDemo/Pods-DroiShareSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BC4AA46BC461A13466B8EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E91E181F78D27E006C9F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DF1AAC1F7DF276002FF831 /* WeiboVC.m in Sources */,
+				D7E91E271F78D27E006C9F84 /* ViewController.m in Sources */,
+				D7DF1AA91F7DF276002FF831 /* WechatTimelineVC.m in Sources */,
+				D7E91E241F78D27E006C9F84 /* AppDelegate.m in Sources */,
+				D7DF1AA61F7DF276002FF831 /* WechatSessionVC.m in Sources */,
+				D7DF1AA31F7DF276002FF831 /* QQZoneVC.m in Sources */,
+				D7E91E211F78D27E006C9F84 /* main.m in Sources */,
+				D7DF1A941F7DF261002FF831 /* QQFriendVC.m in Sources */,
+				E174E2F6AA6161AAA4575650 /* DroiBaaS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7E91E281F78D27E006C9F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E91E291F78D27E006C9F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E91E2D1F78D27E006C9F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E91E2E1F78D27E006C9F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E91E311F78D27E006C9F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7E91E321F78D27E006C9F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E91E341F78D27E006C9F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6783ACFD1AE00E4A9128DE /* Pods-DroiShareSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 5K93T4P36N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+					"\"${PODS_ROOT}/DroiCoreSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public/DroiCoreSDK/DroiCoreSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Weibo_SDK\"",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+				);
+				INFOPLIST_FILE = DroiShareSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+					"\"${PODS_ROOT}/WechatOpenSDK/OpenSDK1.8.0\"",
+					"\"${PODS_ROOT}/Weibo_SDK/libWeiboSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.droi.DroiShareSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7E91E351F78D27E006C9F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3D6BE377E23C0FAFE4DBE1 /* Pods-DroiShareSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 5K93T4P36N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+					"\"${PODS_ROOT}/DroiCoreSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public/DroiCoreSDK/DroiCoreSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Weibo_SDK\"",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+				);
+				INFOPLIST_FILE = DroiShareSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DroiShareSDKDemo",
+					"\"${PODS_ROOT}/WechatOpenSDK/OpenSDK1.8.0\"",
+					"\"${PODS_ROOT}/Weibo_SDK/libWeiboSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.droi.DroiShareSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E91E171F78D27E006C9F84 /* Build configuration list for PBXProject "DroiShareSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E91E311F78D27E006C9F84 /* Debug */,
+				D7E91E321F78D27E006C9F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E91E331F78D27E006C9F84 /* Build configuration list for PBXNativeTarget "DroiShareSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E91E341F78D27E006C9F84 /* Debug */,
+				D7E91E351F78D27E006C9F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E91E141F78D27E006C9F84 /* Project object */;
+}
