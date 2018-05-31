@@ -1,0 +1,6 @@
+framework module DroiQQShare {
+  umbrella header "DroiQQShare.h"
+
+  export *
+  module * { export * }
+}

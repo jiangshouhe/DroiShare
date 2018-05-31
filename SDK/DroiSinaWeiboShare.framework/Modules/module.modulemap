@@ -1,0 +1,6 @@
+framework module DroiSinaWeiboShare {
+  umbrella header "DroiSinaWeiboShare.h"
+
+  export *
+  module * { export * }
+}

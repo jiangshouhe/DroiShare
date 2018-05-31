@@ -1,0 +1,6 @@
+framework module DroiWechatShare {
+  umbrella header "DroiWechatShare.h"
+
+  export *
+  module * { export * }
+}
