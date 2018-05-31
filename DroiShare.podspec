@@ -11,4 +11,5 @@ s.source       = {:git => 'https://github.com/jiangshouhe/DroiShare.git', :tag =
 s.resources     = 'SDK/DroiShareBundle.bundle'
 s.vendored_frameworks ='SDK/DroiQQShare.framework','SDK/DroiShare.framework','SDK/DroiSinaWeiboShare.framework','SDK/DroiWechatShare.framework','SDK/TencentOpenAPI.framework'
 s.requires_arc = true
+s.dependency 'DroiCoreSDK'
 end
