@@ -27,7 +27,7 @@ pod "Weibo_SDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
 end
 
 ```
-之后在控制台中 cd 到 Podfile 文件所在目录，执行如下命令完成安装。
+之后在控制台中 cd 到 Podfile 文件所在目录，执行如下命令完成安装
 
 ```
 pod  install
