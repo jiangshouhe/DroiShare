@@ -64,6 +64,7 @@ pod  install
 如：`wb1665582056` `wxd80b178214361b94` `tencent1106430520`
 
 配置内容比较多，请参考demo工程。
+注意：Build Settings 中的 Allow Non-modular Includes In Framework Modules 必须设置为Yes 不然报Include of non-modular header inside framework module错误。
 
 ###初始化 SDK
 在使用DroiShare SDK之前需要先初始化DroiShare SDK 请在Applegate.m中添加如下代码，完成初始化。
@@ -149,6 +150,7 @@ __weak typeof(self) weakSelf = self;
 
 ```
 更多详细分享和登录功能请参考demo工程。
+
 
 
 
